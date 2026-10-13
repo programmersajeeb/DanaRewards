@@ -7,10 +7,10 @@
 <meta name="description" content="DanaRewards. Watch ads, collect points, and discover a little reward in your everyday.">
 <title>DanaRewards — Watch. Earn. Shine.</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%20fill%3D%22none%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2221%22%20fill%3D%22%23bde8cf%22/%3E%3Cpath%20d%3D%22M21%2015h11c23%200%2023%2034%200%2034H21V15Z%22%20stroke%3D%22%23173f35%22%20stroke-width%3D%225%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%227%22%20fill%3D%22%23173f35%22/%3E%3Cpath%20d%3D%22m47%2010%201.7%204.3L53%2016l-4.3%201.7L47%2022l-1.7-4.3L41%2016l4.3-1.7L47%2010Z%22%20fill%3D%22%23173f35%22/%3E%3C/svg%3E">
-<!-- The original application script, ad zone and points storage key are retained unchanged.
+<!-- DanaRewards — zone 12018764. Original ad behaviour and points storage key retained.
      Upload this file as index.html. No build step or separate logo file is required. -->
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
-<script src="//libtl.com/sdk.js" data-zone="11822416" data-sdk="show_11822416" async></script>
+<script src="https://libtl.com/sdk.js" data-zone="12018764" data-sdk="show_12018764" async></script>
 <style>
 :root{--green:#153b31;--mint:#bee7ce;--paper:#f7f8f3;--ink:#203c33;--muted:#75847c;--border:#e3e8df;color-scheme:light}
 *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}button{font:inherit;touch-action:manipulation;cursor:pointer}button:focus-visible{outline:3px solid #bd8e45;outline-offset:4px}button:disabled{opacity:.55;cursor:wait}svg{display:block}header{border-bottom:1px solid var(--border);background:#ffffffb3}.topbar{max-width:1100px;margin:auto;padding:22px 30px;display:flex;align-items:center;justify-content:space-between;gap:15px}.brand{display:flex;align-items:center;gap:12px}.brand svg{width:44px;height:44px}.wordmark{font-size:22px;letter-spacing:-1px;font-weight:800}.wordmark span{font-weight:450}.tagline{font-size:8px;letter-spacing:2.7px;color:var(--muted);font-weight:700;margin-top:4px}.country{display:flex;align-items:center;gap:8px;font-size:10px;font-weight:700;letter-spacing:1px}.country svg{width:24px;border-radius:3px}.shell{max-width:1100px;padding:38px 30px 25px;margin:auto}.intro{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:25px}.eyebrow{font-size:9px;letter-spacing:2px;font-weight:800;color:#69816f;text-transform:uppercase}.intro h1{font-size:32px;letter-spacing:-1.3px;line-height:1.2;margin:10px 0 9px}.intro p{font-size:13px;color:var(--muted);line-height:1.7;margin:0}.profile{display:flex;align-items:center;gap:10px;min-width:0;max-width:240px}.profile img{width:42px;height:42px;border:3px solid white;border-radius:50%;object-fit:cover;flex-shrink:0}.profile small{font-size:10px;color:var(--muted)}.profile h2{margin:3px 0 0;font-size:12px;overflow-wrap:anywhere}.grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}.balance{overflow:hidden;position:relative;background:var(--green);border-radius:24px;color:#fff;padding:29px;min-height:287px;display:flex;flex-direction:column;justify-content:space-between}.balance:before{content:"";position:absolute;width:260px;height:260px;border:1px solid #caebd31a;border-radius:50%;right:-95px;top:26px;box-shadow:0 0 0 33px #caebd308,0 0 0 66px #caebd306}.balance-header,.balance-bottom{position:relative;display:flex;align-items:center;justify-content:space-between;gap:12px}.balance-label{font-size:12px;color:#d0e3d6}.badge{font-size:9px;letter-spacing:1px;font-weight:700;background:#ffffff0c;border:1px solid #ffffff20;padding:7px 9px;border-radius:7px;color:#d0e4d8;white-space:nowrap}.value{position:relative;display:flex;flex-direction:column;gap:6px;margin:20px 0}.value strong{font-size:62px;letter-spacing:-3px;line-height:1;overflow-wrap:anywhere}.value span{font-size:12px;color:#9fc4b1}.balance-bottom{border-top:1px solid #ffffff1a;padding-top:16px;font-size:10px;color:#accaba}.pearl-symbol{position:absolute;right:31px;top:96px;width:74px;height:74px;border-radius:50%;background:radial-gradient(circle at 32% 25%,white,#f0e9d9 30%,#a8c9b7 67%,#597768);box-shadow:0 12px 30px #051a2740,0 0 0 10px #ffffff05}.value{max-width:70%}.balance-note{font-size:10px;color:var(--muted);line-height:1.7;padding:12px 5px 0;margin:0}.action-card{background:#fff;border:1px solid var(--border);border-radius:24px;padding:27px}.action-heading{display:flex;justify-content:space-between;align-items:center;gap:10px}.action-heading h2{font-size:20px;letter-spacing:-.7px;margin:0}.point-chip{font-size:10px;font-weight:700;color:#6b633b;background:#f6f0df;padding:7px 10px;border-radius:20px;white-space:nowrap}.subtitle{font-size:12px;color:var(--muted);line-height:1.6;margin:8px 0 22px}.label{font-size:9px;letter-spacing:1.7px;font-weight:800;text-transform:uppercase;margin:0 0 10px}.modes{display:grid;grid-template-columns:1fr 1fr;gap:8px;background:#f4f6f1;padding:5px;border-radius:13px;border:1px solid #edf0e9}.modes button{min-height:46px;border:0;border-radius:9px;font-size:11px;font-weight:750;color:#6c7c72;background:transparent;padding:10px 6px}.modes #btnManual{color:var(--green);background:white;box-shadow:0 2px 5px #153b3110}.modes #btnAuto.bg-red-500{color:#ab3854;background:#fff0f3;box-shadow:0 2px 5px #153b3110}.modes:has(#btnAuto.bg-red-500) #btnManual{color:#6c7c72;background:transparent;box-shadow:none}.status{min-height:66px;display:flex;align-items:center;justify-content:center;gap:9px;padding:12px 0}#statusText{font-size:11px;line-height:1.6;color:var(--muted);margin:0;text-align:center;overflow-wrap:anywhere}#statusText.text-rose-400{color:#ad3652}#statusText.text-emerald-400{color:#227154}.loader-ring{width:17px;height:17px;border:2px solid #deeee3;border-top-color:var(--green);border-radius:50%;animation:spin .8s linear infinite;flex-shrink:0}.hidden{display:none!important}.watch{display:flex;align-items:center;justify-content:center;gap:10px;border:0;width:100%;min-height:54px;border-radius:13px;background:var(--mint);color:var(--green);font-size:14px;font-weight:800;transition:background .2s,transform .2s}.watch:hover{background:#acdcbf}.watch:active{transform:translateY(1px)}.watch svg{width:18px;height:18px}.button-note{font-size:10px;color:var(--muted);text-align:center;margin:12px 0 0;line-height:1.6}.how{margin-top:29px;border-top:1px solid var(--border);padding-top:23px}.how h2{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;margin:0 0 20px;color:#768475}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.step{display:flex;align-items:start;gap:11px}.number{height:29px;width:29px;background:#e7eddf;border-radius:50%;display:grid;place-items:center;font-size:10px;font-weight:800;flex-shrink:0}.step h3{font-size:12px;margin:2px 0 6px}.step p{font-size:11px;color:var(--muted);line-height:1.7;margin:0}footer{margin-top:32px;padding-top:19px;border-top:1px solid var(--border);display:flex;justify-content:space-between;gap:10px;font-size:10px;color:#819082}footer strong{font-weight:700;color:#536b5a}.footer-pearl{color:#9a885b}@keyframes spin{to{transform:rotate(360deg)}}
@@ -19,6 +19,32 @@
 @media(max-width:359px){.topbar{padding:17px 16px}.shell{padding:24px 14px}.country span{display:none}.action-card,.balance{padding:21px}.intro h1{font-size:25px}.wordmark{font-size:19px}.badge{font-size:8px}.pearl-symbol{right:24px}.action-heading h2{font-size:19px}}
 @supports(padding:max(0px)){body{padding-bottom:env(safe-area-inset-bottom)}}
 @media(prefers-reduced-motion:reduce){*{animation-duration:0.01ms!important;transition:none!important}}
+
+/* DanaRewards visual refinement: pearl, emerald and warm gold. */
+:root{--paper:#f6f7f2;--muted:#607569}
+body{background:radial-gradient(ellipse at 7% 12%,#dfece040,transparent 48%),radial-gradient(ellipse at 95% 35%,#ece3c540,transparent 44%),var(--paper)}
+header{background:#fcfdf9}.brand svg{filter:drop-shadow(0 4px 7px #153b3112)}
+.country{border:1px solid #dee7db;background:#fff;border-radius:30px;padding:9px 12px}
+.intro h1{font-weight:750}.eyebrow{color:#667953}
+.profile{background:#ffffffbd;border:1px solid #e0e7dc;border-radius:40px;padding:8px 15px 8px 8px}
+.grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.grid>section{min-width:0}.balance{background:linear-gradient(125deg,#11392e 5%,#20533f 100%);box-shadow:0 15px 35px #193c3112;border:1px solid #315b46}
+.badge{color:#eedbb0;border-color:#dac39238;background:#dfc48d0c}
+.balance:after{content:"";position:absolute;width:5px;height:5px;border-radius:50%;background:#e8d8a5;right:37px;top:83px;box-shadow:-92px 36px 0 -1px #e8d8a5, -13px 105px 0 -1px #e8d8a5;pointer-events:none}
+.value strong{font-variant-numeric:tabular-nums}.balance-bottom{color:#c3d9c9;font-size:11px}
+.action-card{box-shadow:0 12px 35px #183e3007}.point-chip{border:1px solid #ece1c5}
+.modes{padding:6px}.modes button{font-size:12px;min-height:48px}
+.status{margin:13px 0;min-height:44px;padding:9px 12px;border-radius:10px;background:#f6f8f3;border:1px solid #edf1e8}
+#statusText{font-size:12px;color:#586f60}
+.watch{background:#183f32;color:#f0f8ed;min-height:56px;box-shadow:0 5px 12px #153b311a;font-size:15px}
+.watch:hover{background:#23523f}.watch:disabled{box-shadow:none}
+.watch svg{color:#c4e7cf}.watch>span{margin-left:4px;color:#d4bc80}
+.button-note{font-size:11px}.balance-note{font-size:11px}
+.how{border-top:0;padding:23px;background:#ffffff8c;border:1px solid #e2e8dc;border-radius:20px}
+.number{background:#edf2e8;color:#466648;border:1px solid #dce7d5}
+.step p{font-size:12px}.step h3{font-size:13px}footer{font-size:11px}
+@media(max-width:700px){.grid{grid-template-columns:minmax(0,1fr)}.profile{width:fit-content;max-width:100%;padding:6px 13px 6px 6px}.profile>div{min-width:0}.country{padding:7px 9px}.how{padding:21px}.balance{min-height:230px}.action-card{padding:23px}.intro h1{font-size:clamp(25px,7vw,32px)}.balance-note{padding-top:10px}.watch{min-height:55px}}
+@media(max-width:359px){.topbar{gap:8px}.brand{gap:8px}.brand svg{width:36px;height:36px}.country{padding:6px}.action-card{padding:20px}.action-heading{flex-wrap:wrap}.balance-header{gap:7px}.balance-label{font-size:11px}.how{padding:18px}}
 </style></head><body>
 <header><div class="topbar"><div class="brand"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none"><rect width="64" height="64" rx="21" fill="#bde8cf"/><path d="M21 15h11c23 0 23 34 0 34H21V15Z" stroke="#173f35" stroke-width="5"/><circle cx="32" cy="32" r="7" fill="#173f35"/><path d="m47 10 1.7 4.3L53 16l-4.3 1.7L47 22l-1.7-4.3L41 16l4.3-1.7L47 10Z" fill="#173f35"/></svg><div><div class="wordmark">Dana<span>Rewards</span></div><div class="tagline">WATCH. EARN. SHINE.</div></div></div><div class="country"><svg viewBox="0 0 60 30" role="img" aria-label="Kuwait"><path fill="#168151" d="M0 0h60v10H0z"/><path fill="#fff" d="M0 10h60v10H0z"/><path fill="#c74446" d="M0 20h60v10H0z"/><path fill="#152b26" d="m0 0 15 10v10L0 30Z"/></svg><span>KUWAIT</span></div></div></header>
 <main class="shell"><div class="intro"><div><div class="eyebrow">A little time. A little shine.</div><h1>Your everyday, rewarded.</h1><p>Discover a little reward in every moment.</p></div><div class="profile"><img id="userAvatar" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2232%22%20fill%3D%22%23e7eee9%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2224%22%20r%3D%2210%22%20fill%3D%22%23709b88%22/%3E%3Cpath%20d%3D%22M12%2061a20%2022%200%200%201%2040%200%22%20fill%3D%22%23709b88%22/%3E%3C/svg%3E" alt="Your profile" onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2232%22%20fill%3D%22%23e7eee9%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2224%22%20r%3D%2210%22%20fill%3D%22%23709b88%22/%3E%3Cpath%20d%3D%22M12%2061a20%2022%200%200%201%2040%200%22%20fill%3D%22%23709b88%22/%3E%3C/svg%3E'"><div><small>Welcome back,</small><h2 id="userName">Member</h2></div></div></div>
@@ -27,7 +53,7 @@
 <section class="how" aria-labelledby="howTitle"><h2 id="howTitle">Simple moments. Small rewards.</h2><div class="steps"><div class="step"><span class="number">01</span><div><h3>Make it your moment</h3><p>Choose manual or automatic mode.</p></div></div><div class="step"><span class="number">02</span><div><h3>Watch &amp; discover</h3><p>Let the ad complete to earn your point.</p></div></div><div class="step"><span class="number">03</span><div><h3>See your balance grow</h3><p>Your points update after each completed ad.</p></div></div></div></section>
 <footer><strong>DanaRewards</strong><span>Inspired by the Gulf. Made for your moments.</span><span class="footer-pearl">✦</span></footer></main>
   <script>
-    const ZONE_ID = "11822416";
+    const ZONE_ID = "12018764";
     let isAutoMode = false;
     let isAdRunning = false;
     let points = parseInt(localStorage.getItem('adrocket_points') || '0');
@@ -253,7 +279,7 @@
 
     async function playMonetagAd(isAuto = false) {
       const funcName = `show_${ZONE_ID}`;
-      
+
       let attempts = 0;
       while (typeof window[funcName] !== 'function' && attempts < 10) {
         await new Promise(res => setTimeout(res, 250));
@@ -325,7 +351,7 @@
 
           statusText.innerText = "Ad Playing (Auto)...";
           await playMonetagAd(true);
-          
+
           addPoint();
           statusText.innerText = "Ad Closed! Next ad loading...";
           statusText.className = "text-xs font-bold text-emerald-400 tracking-wide";
